@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Bold";
+  src: url("fonts/GreycliffCF-Bold.e0ad2cea.woff2");
+}
+
+@font-face {
+  font-family: "Heavy";
+  src: url("fonts/GreycliffCF-Heavy.fe465dc4.woff2");
+}
+
+@font-face {
+  font-family: "Light";
+  src: url("fonts/g_font.woff2");
+}
+
+
+
+body {
+  font-family: "Light", sans-serif;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h1 strong {
+  font-size: 88px;
+  font-family: 'Bold';
+  color: rgb(4, 30, 73);
+}
+
+.title {
+  color: rgb(143, 146, 144);
+  text-align: center;
+  padding-top: 40px;
+}
